@@ -1,0 +1,371 @@
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Candal', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'PT Sans Narrow', sans-serif;
+*/
+/*******************
+PAGINA PRINCIPAL
+*******************/
+#contenidos{
+width: 1000px;
+/*tamaño de ancho a la pagina*/
+height: auto;
+/*alto automatico para que se expanda*/
+margin: auto;
+/*margen autormatica de la pagina*/
+position: relative;
+/*posicion */
+background: white;
+/*color de la pagina*/
+top:50px;
+}
+#logperro{
+position: absolute;
+width: 100px;
+left: 450px;
+background-image: url(../img/logo1.jpg);
+height: 100px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+body{
+    background-image: url(../img/fondo3.jpg);
+	background-repeat: no-repeat;
+	/*evita que la imagen se repita como fondo */
+	background-size: cover;
+	/*permite que a la medida que se amplie la pantalla se amplie de igual manera*/
+
+
+	}
+
+	h1{
+		float:left;
+		/*Me da ubicacion de la letra del titulo*/
+		font-family: 'Bree Serif', serif;
+		/*Tipo de fuente que se le asigna a eltitulo principal*/
+		margin-left: 30px;
+		/*margen para el titulo*/
+		font-size: 30px;
+		/*tipo de tamaño del titulo*/
+		text-align: left;
+		/*la alineacion del titulo, en este caso para que quecde centrado*/
+
+	}
+    h2{
+    	float:right;
+    	/*Tipo de fuente que se le asigna a eltitulo principal*/
+		font-family: 'Open Sans Condensed', sans-serif;
+		/*Tipo de fuente que se le asigna a eltitulo principal*/
+		margin-right: 20px;
+		/*margen para el titulo*/
+		font-size: 30px;
+		/*tipo de tamaño del titulo*/
+		text-align: right;
+		/*la alineacion del titulo, en este caso para que quecde centrado*/
+	}
+	header{
+		width: 1000px;
+		/*ancho de la caja donde esta el titulo*/
+		height: 90px;
+		/*alto de la caja donde esta el titulo*/
+		background: white;
+		/*color de la cajacoral*/
+		border-radius: 10px;
+		
+	}
+	
+	nav{
+		width: 1000px;
+		/*ancho de la caja donde esta el titulo*/
+		height: 40px;
+		/*alto de la caja donde esta el menu*/
+		background: #206166;
+		/*color de la caja*/
+		/*border-radius: 20px;*/
+		/*Este cambio me permite cambiar la forma de la caja  es decir las esquinas;*/
+	}
+	li{
+	float: left;
+	/*ajuste de la lista del menu*/
+	list-style-type: none;
+	/*no me tome elementos  tipo lista si no como menu*/
+	padding: 50xp;
+	/*espaciado*/
+	margin: 10px;
+	background: dark blue;
+	border-radius: 5px;
+	font-size: 20px;
+
+	}
+	a{
+	color: black;
+	/*color texto enlace*/	
+	}
+	#cuerpo{
+	width: 600px;
+	/*tamaño de ancho a la pagina*/
+	height: 400px;
+	/*alto automatico para que se expanda*/
+	margin: auto;
+	/*margen autormatica de la pagina*/
+	position: relative;
+	/*posicion */
+	background: white;
+	/*color de la pagina*/
+	float: left;
+	}
+	#imagencuerpo{
+	right: 20px;
+	top: 80px;
+	width: 350px;
+	/*tamaño de ancho a la pagina*/
+	height: 232px;
+	/*alto automatico para que se expanda*/
+	margin: auto;
+	/*margen autormatica de la pagina*/
+	position: relative;
+	/*posicion */
+	background: white;
+	/*color de la pagina*/
+	float: right;
+	}
+	#piedepagina{
+	width: 1000px;
+	/*tamaño de ancho a la pagina*/
+	height: 100px;
+	/*alto automatico para que se expanda*/
+	margin: auto;
+	/*margen autormatica de la pagina*/
+	position: relative;
+	/*posicion */
+	background: #206166;
+	/*color de la pagina*/
+	clear: both;
+	color: white;
+	text-align: center;
+	}
+	
+	p#vision{
+		text-align: justify;
+		margin-left: 10px;
+	}
+	#nuestra{
+		margin-left: 10px;
+	}
+	img#imagen1{
+	border:2px solid grey;
+	margin: 0;
+	padding: 0;
+	border-radius: 300px;
+	overflow: hidden;
+	}
+/*******************
+PAGINA MASCOTAS
+*******************/
+#peludito{
+	width: 500px;
+	/*tamaño de ancho a la pagina*/
+	height: 950px;
+	/*alto automatico para que se expanda*/
+	margin: auto;
+	/*margen autormatica de la pagina*/
+	position: relative;
+	/*posicion */
+	background: white;
+	/*color de la pagina*/
+	float: left;
+	text-align: center;
+	background-image: url(../img/fondo5.jpg);
+	background-repeat:  no-repeat;
+    
+	}
+	#minino{
+	width: 500px;
+	/*tamaño de ancho a la pagina*/
+	height: 950px;
+	/*alto automatico para que se expanda*/
+	margin: auto;
+	/*margen autormatica de la pagina*/
+	position: relative;
+	/*posicion */
+	background: white;
+	/*color de la pagina*/
+	float: left;
+	text-align: center;
+	background-image: url(../img/fondo5.jpg);
+	background-repeat:  no-repeat;
+	
+	}
+	img#lila{
+	border:2px solid grey;
+	margin: 0;
+	padding: 0;
+	border-radius: 300px;
+	overflow: hidden;
+	}
+	/*******************
+   PAGINA ADOPTA
+    *******************/
+	#adopta{
+	width: 1000px;
+	/*tamaño de ancho a la pagina*/
+	height: 400px;
+	/*alto automatico para que se expanda*/
+	margin: auto;
+	/*margen autormatica de la pagina*/
+	position: relative;
+	/*posicion */
+	background: white;
+	/*color de la pagina*/
+	float: left;
+	}
+	#adopta1{
+		margin-left: 40px;
+		text-align: left;
+	}
+	#adopta2{
+		margin-left: 40px;
+		text-align: left;
+	}
+	#adoptando{
+position: absolute;
+width: 400px;
+right: 50px;
+top: 30px;
+background-image: url(../img/adoptando.jpg);
+height: 200px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+/*******************
+   PAGINA CUIDADO DE UN PERRO
+    *******************/	
+#cuidadosperro{
+	width: 1000px;
+	/*tamaño de ancho a la pagina*/
+	height: 500px;
+	/*alto automatico para que se expanda*/
+	margin: auto;
+	/*margen autormatica de la pagina*/
+	position: relative;
+	/*posicion */
+	background: white;
+	/*color de la pagina*/
+	float: left;
+	}
+	#perro{
+		margin-left: 40px;
+		text-align: center;
+	}
+	#cuidado2{
+		margin-left: 40px;
+		text-align: left;
+	}
+	 #banoperro{
+    position: relative;
+    width: 400px;
+    left: 300px;
+    top: 10px;
+    background-image: url(../img/perrobaño.jpg);
+    height: 300px;
+    border:5px solid #206166;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+/*******************
+   PAGINA CUIDADO DE UN GATO
+    *******************/	
+#cuidadosgato{
+	width: 1000px;
+	/*tamaño de ancho a la pagina*/
+	height: 500px;
+	/*alto automatico para que se expanda*/
+	margin: auto;
+	/*margen autormatica de la pagina*/
+	position: relative;
+	/*posicion */
+	background: white;
+	/*color de la pagina*/
+	float: left;
+	}
+	#gato{
+		margin-left: 40px;
+		text-align: center;
+	}
+	#cuidado3{
+		margin-left: 40px;
+		text-align: left;
+	}
+	#banogato{
+    position: relative;
+    width: 400px;
+    left: 300px;
+    top: 10px;
+    background-image: url(../img/gatobaño.jpg);
+    height: 300px;
+    border:5px solid #206166;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    /*******************
+PAGINA CONTACTO
+*******************/	
+#contenedor{
+	width: 1000px;
+	/*tamaño de ancho a la pagina*/
+	height: 720px;
+	/*alto automatico para que se expanda*/
+	margin: auto;
+	/*margen autormatica de la pagina*/
+	position: relative;
+	/*posicion */
+	background: white;
+	/*color de la pagina*/
+	}
+	img#perrocontacto{
+	border:2px solid grey;
+	left: 200px;
+	padding: 0;
+	border-radius: 300px;
+	overflow: hidden;
+	}
+	#imagencontacto{
+	position:absolute;
+	left:300px;
+	top:10px;
+	height:196px;
+	background-repeat:no-repeat;
+	background-size:cover;	
+	}
+	#imagencontacto2{
+	position:absolute;
+	right:300px;
+	top:10px;
+	height:196px;
+	background-repeat:no-repeat;
+	background-size:cover;	
+	}
+	h2#encabezado{ 
+	font-size:1em;
+	text-align: left;
+	letter-spacing:5px;
+	line-height:2em;
+	color:blue;
+}
+
+/*Clases*/
+.ancho_menu_home{width: 900px}
+.ancho_menu_paginas{width: 950px}
+
+/*Cambia el estaod de los botones al ser visitados*/
+.menu:link{color: white;text-decoration: none;}
+.menu:visited{color: red;text-decoration: none;}
+.menu:hover{color: orange;text-decoration: none;text-shadow: 0 0 10px white}
+.menu:active{;color: violet;text-decoration: none;}
+/*tner en cuenta que se hizo  cambio en el <ul class="menu"> agregado la clase despues del  nombre del vinculo*/
+
+
+
