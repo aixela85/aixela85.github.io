@@ -36,11 +36,8 @@ body{
 	background-repeat: no-repeat;
 	/*evita que la imagen se repita como fondo */
 	/*permite que a la medida que se amplie la pantalla se amplie de igual manera*/
-	background-size:100%;
-	background-attachment:fixed;
-
-
-
+	background-size: 100%;
+	background-attachment: fixed;
 	}
 
 	h1{
